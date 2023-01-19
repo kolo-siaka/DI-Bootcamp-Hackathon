@@ -1,0 +1,46 @@
+:root{
+    --coloraliceblue:rgb(240,248,255);
+    --text-decoration: none!important;
+    --background-color: black;
+}
+
+/* Début du header*/
+
+.navbar{
+    background-color: var(--background-color);
+}
+
+.bg-body-tert a{
+    color:var(--coloraliceblue) !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+}
+
+.bg-body-tert a:hover{
+    text-decoration: underline;
+    color: #198754 !important;
+}
+
+.bg-body-tert .d-flex a:hover{ 
+    text-decoration: var(--text-decoration);
+    color:var(--coloraliceblue) !important;
+}
+
+.title-logo{
+    text-decoration: var(--text-decoration) !important;
+}
+/* Fin du header*/
+
+
+/* Début du footer*/
+
+.text-center{
+    background-color: var(--background-color);
+    color: aliceblue !important;
+}
+
+.d-flex{
+
+}
+
+/* Fin du footer*/
