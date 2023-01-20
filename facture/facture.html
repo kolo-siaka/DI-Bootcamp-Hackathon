@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facture</title>
+    <link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/boots
+trap.min.css" rel="stylesheet"/>
+<!--<link rel="stylesheet" href="assets/css/style1.css">-->
+  </head>
+
+  <body>
+    <div class="container mt-3">
+      <div class="mt-4 p-5 bg-light text-dark rounded">
+
+        <div>
+          <form>
+            <input id="impression" name="impression" type="button" onclick="window.print();" value="Imprimer cette page" />
+          </form>
+        <!--<a href="#" class="btn btn-warning" style="color:white;"> 
+            Imprimer
+        </a>-->
+        </div>
+    <h3 class="text-center">FACTURE N°</h3>
+
+        <div class="row">
+          <div class="col-md-4 col-lg-4">
+            <div class="card">
+              <div class="card-header">Information sur le 
+                 client
+                </div>
+                <form action="">
+              <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="">Nom client </label>
+                                <input type="text" name="" id="" 
+                                   class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="">Adresse</label>
+                                <input type="text" name="" id="" 
+                                      class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">  
+                                <label for="">Contact</label>
+                                <input type="text" name="" id="" 
+                                         class="form-control"> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    
+                </div>
+            </form>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-12 col-md-12">
+            <div class="table-responsive">
+              <table class="table table-bordered table-hover">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Produits</th>
+                    <th>Prix</th>
+                    <th>Loyer Mensuel</th>
+                    <th>Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>01</td>
+                    <td>Peugeot 406</td>
+                    <td>1.500.000</td>
+                    <td>1</td>
+                    <td>1.500.000</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <th colspan="4" class="text-center">
+                       Total
+                    </th>
+                    <td>1.500.000</td>
+                  </tr>
+                  <tr>
+                    <th colspan="4" class="text-center">
+                        TVA
+                    </th>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th colspan="4" class="text-center">
+                      Reduction
+                    </th>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th colspan="4" class="text-center">
+                      Prix total
+                    </th>
+                    <td>
+                    </td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+  </body>
+</html>
